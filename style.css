@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+	background-color: #FFF;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test {
+  height: 60%;
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000639;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+}
+.pics{
+  height: 250px;
+  width: 250px;
+}
+.button {
+  border-radius: 5px;
+  border: #000639 solid 1px;
+  background-color: #5c6ac4;
+  height: 40px;
+  width: 200px;
+  color: #FFF;
+  font-weight: bold;
+}
+.motto {
+  font: 24px arial bold;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.conditions {
+  font: 14px arial;
+  color: #FFF;
+  text-align: center;
+  margin-top: 10px;
+}
